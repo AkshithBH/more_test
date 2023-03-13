@@ -2,12 +2,12 @@ package more_test
 
 import "log"
 
-func logInfo(message string) {
+func LogInfo(message string) {
 	log.Println("info - %v", message)
 }
-func logWarning(message string) {
+func LogWarning(message string) {
 	log.Println("warn - %v", message)
 }
-func logError(message string) {
+func LogError(message string) {
 	log.Println("error - %v", message)
 }
